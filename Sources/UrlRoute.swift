@@ -23,8 +23,7 @@
 //	SOFTWARE.
 //
 
-public typealias UrlRouteQuickHandler = ([String: String]) -> Void
-public typealias UrlRouteHandler = (URL, UrlRoute, [String: String]) -> Void
+public typealias UrlRouteHandler = (URL, UrlRoute, [String: String]) -> RouteResult?
 
 public struct UrlRoute: CustomDebugStringConvertible {
 
@@ -41,11 +40,13 @@ public struct UrlRoute: CustomDebugStringConvertible {
 		return self.pattern
 	}
 
-	public init(pattern: String, aliases: [String: String] = [:], handler: @escaping UrlRouteHandler = { _,_,_ in }) {
+	public init(pattern: String,
+                aliases: [String: String] = [:],
+                handler: @escaping UrlRouteHandler = { _,_,_ in return nil }) {
 		self.init(patterns: [ pattern ], aliases: aliases, handler: handler)
 	}
 
-	public init(patterns: [String], aliases: [String: String] = [:], handler: @escaping UrlRouteHandler = { _,_,_ in }) {
+	public init(patterns: [String], aliases: [String: String] = [:], handler: @escaping UrlRouteHandler = { _,_,_ in return nil }) {
 		self.pattern = patterns[0]
 		self.handler = handler
 		self.patterns = patterns.map { UrlPattern.build(pattern: $0, aliases: aliases) }

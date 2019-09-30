@@ -11,38 +11,26 @@
 		2895909A2039213500E5B803 /* UrlPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289590982039213500E5B803 /* UrlPattern.swift */; };
 		2895909C203921AB00E5B803 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895909B203921AB00E5B803 /* String+Extension.swift */; };
 		2895909D203921AB00E5B803 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895909B203921AB00E5B803 /* String+Extension.swift */; };
-		289590A1203931D000E5B803 /* UrlRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895909E203931B100E5B803 /* UrlRouterTests.swift */; };
 		28AE5DF61F92C29000C1BA82 /* UrlRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA12D1CF6F0F2003DF266 /* UrlRoute.swift */; };
 		28AE5DF71F92C29300C1BA82 /* UrlRouted.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA12E1CF6F0F2003DF266 /* UrlRouted.swift */; };
 		28AE5DF81F92C29300C1BA82 /* UrlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA12F1CF6F0F2003DF266 /* UrlRouter.swift */; };
 		28AE5DF91F92C29800C1BA82 /* SHNUrlRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAADA1151CF6F0E5003DF266 /* SHNUrlRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23DE4EA23421A8800B9B3B6 /* RouteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23DE4E923421A8800B9B3B6 /* RouteResult.swift */; };
 		FAADA1161CF6F0E5003DF266 /* SHNUrlRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAADA1151CF6F0E5003DF266 /* SHNUrlRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAADA11D1CF6F0E5003DF266 /* SHNUrlRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAADA1121CF6F0E5003DF266 /* SHNUrlRouter.framework */; };
-		FAADA1221CF6F0E5003DF266 /* UrlRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA1211CF6F0E5003DF266 /* UrlRouteTests.swift */; };
 		FAADA1301CF6F0F2003DF266 /* UrlRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA12D1CF6F0F2003DF266 /* UrlRoute.swift */; };
 		FAADA1311CF6F0F2003DF266 /* UrlRouted.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA12E1CF6F0F2003DF266 /* UrlRouted.swift */; };
 		FAADA1321CF6F0F2003DF266 /* UrlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADA12F1CF6F0F2003DF266 /* UrlRouter.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FAADA11E1CF6F0E5003DF266 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAADA1091CF6F0E5003DF266 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAADA1111CF6F0E5003DF266;
-			remoteInfo = SHNUrlRouter;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		289590982039213500E5B803 /* UrlPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlPattern.swift; sourceTree = "<group>"; };
 		2895909B203921AB00E5B803 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		2895909E203931B100E5B803 /* UrlRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRouterTests.swift; sourceTree = "<group>"; };
 		28AE5DEE1F92C22B00C1BA82 /* SHNUrlRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHNUrlRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23DE4E923421A8800B9B3B6 /* RouteResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteResult.swift; sourceTree = "<group>"; };
 		FAADA1121CF6F0E5003DF266 /* SHNUrlRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHNUrlRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAADA1151CF6F0E5003DF266 /* SHNUrlRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNUrlRouter.h; sourceTree = "<group>"; };
 		FAADA1171CF6F0E5003DF266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAADA11C1CF6F0E5003DF266 /* SHNUrlRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHNUrlRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAADA1211CF6F0E5003DF266 /* UrlRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRouteTests.swift; sourceTree = "<group>"; };
 		FAADA1231CF6F0E5003DF266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAADA12D1CF6F0F2003DF266 /* UrlRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlRoute.swift; sourceTree = "<group>"; };
@@ -65,14 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAADA1191CF6F0E5003DF266 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAADA11D1CF6F0E5003DF266 /* SHNUrlRouter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				FAADA1121CF6F0E5003DF266 /* SHNUrlRouter.framework */,
-				FAADA11C1CF6F0E5003DF266 /* SHNUrlRouterTests.xctest */,
 				28AE5DEE1F92C22B00C1BA82 /* SHNUrlRouter.framework */,
 			);
 			name = Products;
@@ -123,6 +102,7 @@
 				FAADA12F1CF6F0F2003DF266 /* UrlRouter.swift */,
 				289590982039213500E5B803 /* UrlPattern.swift */,
 				2895909B203921AB00E5B803 /* String+Extension.swift */,
+				E23DE4E923421A8800B9B3B6 /* RouteResult.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -186,24 +166,6 @@
 			productReference = FAADA1121CF6F0E5003DF266 /* SHNUrlRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FAADA11B1CF6F0E5003DF266 /* SHNUrlRouterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAADA1291CF6F0E5003DF266 /* Build configuration list for PBXNativeTarget "SHNUrlRouterTests" */;
-			buildPhases = (
-				FAADA1181CF6F0E5003DF266 /* Sources */,
-				FAADA1191CF6F0E5003DF266 /* Frameworks */,
-				FAADA11A1CF6F0E5003DF266 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAADA11F1CF6F0E5003DF266 /* PBXTargetDependency */,
-			);
-			name = SHNUrlRouterTests;
-			productName = SHNUrlRouterTests;
-			productReference = FAADA11C1CF6F0E5003DF266 /* SHNUrlRouterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,10 +181,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					FAADA1111CF6F0E5003DF266 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1100;
-					};
-					FAADA11B1CF6F0E5003DF266 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 1100;
 					};
@@ -243,7 +201,6 @@
 			targets = (
 				FAADA1111CF6F0E5003DF266 /* SHNUrlRouter iOS */,
 				28AE5DED1F92C22B00C1BA82 /* SHNUrlRouter tvOS */,
-				FAADA11B1CF6F0E5003DF266 /* SHNUrlRouterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,13 +214,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAADA1101CF6F0E5003DF266 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAADA11A1CF6F0E5003DF266 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,30 +241,14 @@
 			files = (
 				289590992039213500E5B803 /* UrlPattern.swift in Sources */,
 				FAADA1311CF6F0F2003DF266 /* UrlRouted.swift in Sources */,
+				E23DE4EA23421A8800B9B3B6 /* RouteResult.swift in Sources */,
 				FAADA1321CF6F0F2003DF266 /* UrlRouter.swift in Sources */,
 				2895909C203921AB00E5B803 /* String+Extension.swift in Sources */,
 				FAADA1301CF6F0F2003DF266 /* UrlRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAADA1181CF6F0E5003DF266 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				289590A1203931D000E5B803 /* UrlRouterTests.swift in Sources */,
-				FAADA1221CF6F0E5003DF266 /* UrlRouteTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FAADA11F1CF6F0E5003DF266 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAADA1111CF6F0E5003DF266 /* SHNUrlRouter iOS */;
-			targetProxy = FAADA11E1CF6F0E5003DF266 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		28AE5DF41F92C22C00C1BA82 /* Debug */ = {
@@ -520,28 +454,6 @@
 			};
 			name = Release;
 		};
-		FAADA12A1CF6F0E5003DF266 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.shnhrrsn.SHNUrlRouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		FAADA12B1CF6F0E5003DF266 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.shnhrrsn.SHNUrlRouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,15 +480,6 @@
 			buildConfigurations = (
 				FAADA1271CF6F0E5003DF266 /* Debug */,
 				FAADA1281CF6F0E5003DF266 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAADA1291CF6F0E5003DF266 /* Build configuration list for PBXNativeTarget "SHNUrlRouterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAADA12A1CF6F0E5003DF266 /* Debug */,
-				FAADA12B1CF6F0E5003DF266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
